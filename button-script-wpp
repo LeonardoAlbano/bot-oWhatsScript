@@ -1,0 +1,17 @@
+<!-- /*Botão Whatsapp*/ -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+<a href="https://api.whatsapp.com/send?phone=5519998365408&text=Oi,%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Desafio%20para%20Prosperidade,%20pode%20me%20ajudar?" class="float" target="_blank"><i class="fab fa-whatsapp my-float"></i></a>
+<style>
+.float{position:fixed;cursor:pointer;display:block;width:60px;height:60px;bottom:40px;right:40px;background-color:rgba(0,200,0,1);color:white;border-radius:50px;text-align:center;font-size:30px;transition-duration: 0.5s;	animation:pulse 3s infinite;z-index:9000;}
+.float:hover{ background-color:rgba(0,150,0,1);color:white;}
+.my-float{	margin-top:15px;}
+@-webkit-keyframes pulse{  0% {-webkit-box-shadow: 0 0 0 0 rgba(0,200,0, 1);}  70% {-webkit-box-shadow: 0 0 0 20px rgba(0,200,0, 0);}  100% {-webkit-box-shadow: 0 0 0 0 rgba(0,200,0, 0);} }
+</style>
+<!-- /*Botão Whatsapp*/ -->
+  <script type="text/javascript">
+    (function(e,t,o,n,p,r,i){e.visitorGlobalObjectAlias=n;e[e.visitorGlobalObjectAlias]=e[e.visitorGlobalObjectAlias]||function(){(e[e.visitorGlobalObjectAlias].q=e[e.visitorGlobalObjectAlias].q||[]).push(arguments)};e[e.visitorGlobalObjectAlias].l=(new Date).getTime();r=t.createElement("script");r.src=o;r.async=true;i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)})(window,document,"https://diffuser-cdn.app-us1.com/diffuser/diffuser.js","vgo");
+    vgo('setAccount', '610780076');
+    vgo('setTrackByDefault', true);
+
+    vgo('process');
+</script>
